@@ -1,0 +1,11 @@
+{
+  "name": "study-task-rest-api",
+  "version": "1.0.0",
+  "description": "A small REST API for managing student study tasks using local in-memory data.",
+  "main": "src/server.js",
+  "scripts": {"start":"node src/server.js","dev":"node --watch src/server.js","test":"jest --runInBand"},
+  "keywords": ["rest-api","express","student","study-tasks"],
+  "license": "MIT",
+  "dependencies": {"express":"^5.1.0"},
+  "devDependencies": {"jest":"^30.2.0","supertest":"^7.1.4"}
+}
